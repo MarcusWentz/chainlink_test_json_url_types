@@ -1,8 +1,8 @@
 const axios = require("axios");
 
-funcc()
+getJsonValues()
 
-async function funcc() {
+async function getJsonValues() {
 
     // let baseUrl = "http://127.0.0.1:8080/"
 	let baseUrl = "https://marcuswentz.github.io/chainlink_test_json_url_types/";
