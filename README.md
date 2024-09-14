@@ -2,9 +2,15 @@
 
 ## Overview
 
+Test different Solidity types requested through Chainlink Any API JSON Urls. 
+
+### JSON URL Public Hosting
+
 JSON URL website hosted on GitHub pages:
 
 https://marcuswentz.github.io/chainlink_test_json_url_types/
+
+### Test JSON URL locally 
 
 Run locally for testing with:
 
@@ -20,7 +26,7 @@ or
 ```
 http-server
 ```
-## Testnet
+## Chainlink Oracle Testnet Addresses and Job IDs
 
 Chainlink GET Request Response types
 
