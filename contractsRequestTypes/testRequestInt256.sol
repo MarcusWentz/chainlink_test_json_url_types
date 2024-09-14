@@ -18,7 +18,7 @@ contract testRequestInt256 is ChainlinkClient {
     );
 
     constructor() {
-        setChainlinkToken(0xeC9a237864f7e78fd835Db717DB4e3d3c4254b11);
+        setChainlinkToken(0x779877A7B0D9E8603169DdbD7836e478b4624789);
     }
 
     function requestEthereumPrice() public {
