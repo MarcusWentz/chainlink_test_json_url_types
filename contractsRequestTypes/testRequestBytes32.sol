@@ -7,7 +7,7 @@ contract testRequestBytes32 is ChainlinkClient {
 
     using Chainlink for Chainlink.Request;
 
-    address constant oracleSepolia = 0x6090149792daaee9d1d568c9f9a6f6b46aa29efd;
+    address constant oracleSepolia = 0x6090149792dAAeE9D1D568c9f9a6F6B46AA29eFD;
     string constant jobIdTaiko = "e0f10647ce9d47bb8b7e0d3f9ac97b60";
     uint256 public constant ORACLE_PAYMENT = (1 * LINK_DIVISIBILITY) / 10; // 0.1 * 10**18 (0.1 LINK)
     bytes32 public currentPrice;

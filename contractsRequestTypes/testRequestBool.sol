@@ -7,7 +7,7 @@ contract testRequestBool is ChainlinkClient {
 
     using Chainlink for Chainlink.Request;
 
-    address constant oracleSepolia = 0x6090149792daaee9d1d568c9f9a6f6b46aa29efd;
+    address constant oracleSepolia = 0x6090149792dAAeE9D1D568c9f9a6F6B46AA29eFD;
     string constant jobIdTaiko = "cc92cc23dd7742d58f018e6fef32da52";
     uint256 public constant ORACLE_PAYMENT = (1 * LINK_DIVISIBILITY) / 10; // 0.1 * 10**18 (0.1 LINK)
     bool public currentPrice;

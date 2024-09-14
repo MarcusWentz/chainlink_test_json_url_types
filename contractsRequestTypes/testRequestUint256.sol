@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
+pragma solidity 0.8.26;
 
 import "@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
 
@@ -7,7 +7,7 @@ contract testRequestUint256 is ChainlinkClient {
 
     using Chainlink for Chainlink.Request;
 
-    address constant oracleSepolia = 0x6090149792daaee9d1d568c9f9a6f6b46aa29efd;
+    address constant oracleSepolia = 0x6090149792dAAeE9D1D568c9f9a6F6B46AA29eFD;
     string constant jobIdTaiko = "dd42445e651744348535405fb08f3cff";
     uint256 public constant ORACLE_PAYMENT = (1 * LINK_DIVISIBILITY) / 10; // 0.1 * 10**18 (0.1 LINK)
     uint256 public currentPrice;
