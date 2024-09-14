@@ -7,7 +7,7 @@ contract testRequestBytes is ChainlinkClient {
 
     using Chainlink for Chainlink.Request;
 
-    address constant oracleTaiko = 0x7053af6475b2a11Bff65E697E349d66e6580d371;
+    address constant oracleSepolia = 0x6090149792daaee9d1d568c9f9a6f6b46aa29efd;
     string constant jobIdTaiko = "e0f10647ce9d47bb8b7e0d3f9ac97b60";
     uint256 public constant ORACLE_PAYMENT = (1 * LINK_DIVISIBILITY) / 10; // 0.1 * 10**18 (0.1 LINK)
     bytes public currentPrice;
@@ -33,7 +33,7 @@ contract testRequestBytes is ChainlinkClient {
         );
         req.add("path", "bytes");
         //req.addInt("times", 100);
-        sendChainlinkRequestTo(oracleTaiko, req, ORACLE_PAYMENT);
+        sendChainlinkRequestTo(oracleSepolia, req, ORACLE_PAYMENT);
     }
 
     function fulfillEthereumPrice(
