@@ -26,9 +26,13 @@ Chainlink GET Request Response types
 
 https://docs.chain.link/any-api/get-request/examples/large-responses#response-types
 
-Chainlink testnet Oracle Sepolia address (0x6090149792dAAeE9D1D568c9f9a6F6B46AA29eFD): 
+Chainlink testnet Oracle addresses: 
 
 https://docs.chain.link/any-api/testnet-oracles#operator-contracts 
+
+Chainlink Oracle Sepolia address:
+
+https://sepolia.etherscan.io/address/0x6090149792daaee9d1d568c9f9a6f6b46aa29efd
 
 Chainlink testnet Job IDs: 
 
